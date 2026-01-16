@@ -72,9 +72,6 @@ const config = {
         "We leveraged intimate neighborhood knowledge (I live in this area and have walked through dozens of comparable homes) to price strategically at true market value—not inflated hope pricing that leads to price drops",
         "We positioned the home with professional staging and detail-obsessed marketing that made buyers feel they were viewing a brand-new property, not a tired rental"
       ],
-      "testimonial": {
-        "quote": "\"\"We recently had the pleasure of working with Shaleni for the sale of our home in Milton, and we could not be more impressed with the experience. From our initial consultation through to the final sale, she demonstrated exceptional professionalism, market expertise, and a genuine commitment to achieving the best outcome for us. In what has been a particularly challenging real estate market, Shaleni's guidance was invaluable. She carefully assessed current market conditions and worked closely with us to set a competitive and strategic listing price. Her keen eye for detail and advice on staging helped present our home at its absolute best, attracting strong interest right from the start. Thanks to her thoughtful planning and execution, we successfully sold our home within just one week—and at a price we hadn't imagined possible. We are truly grateful for her dedication, transparency, and expert knowledge throughout the process. If you're looking for a reliable, honest, and highly capable realtor—whether buying or selling—we wholeheartedly recommend Shaleni. She's one of the best in the business.\" — Selvan\"<br><span>— Satisfied Client</span>"
-      },
       "listItems": []
     },
     {
