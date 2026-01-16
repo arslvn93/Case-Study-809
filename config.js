@@ -30,7 +30,7 @@ const config = {
   },
   "mainBox": {
     "summary": {
-      "title": "How We Helped Milton Landlords Sell Their Former Rental for $1,118,000 in Just 5 Days—When 36 Days Was the Market Average",
+      "title": "How We Helped Milton Landlords Sell Their Former Rental for $1,118,000 in Just 5 Days, When 36 Days Was the Market Average",
       "heroImage": {
         "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768230509666-1-web-or-mls-DSC08665.jpg"
       },
