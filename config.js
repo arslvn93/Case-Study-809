@@ -25,7 +25,7 @@ const config = {
   },
   "header": {
     "tag": "CASE STUDY",
-    "title": "How We Helped Milton Landlords Sell Their Former Rental for $1,118,000 in Just 5 Days—When 36 Days Was the Market Average",
+    "title": "How We Helped Milton Landlords Sell Their Former Rental for $1,118,000 in Just 5 Days, When 36 Days Was the Market Average",
     "subheadline": "From Tenant-Worn to Magazine-Ready: A Strategic Transformation That Generated 19 Showings and 3 Competing Offers in Under a Week"
   },
   "mainBox": {
