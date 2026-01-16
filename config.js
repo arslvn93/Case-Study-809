@@ -1,16 +1,5 @@
-// =================================================================================================
-// PAGE CONFIGURATION OBJECT
-// This file defines all the dynamic content for the case study page.
-// The `renderer.js` file reads this object to build the HTML.
-// To change text, images, or other content, edit the values in this file.
-// =_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_
 const config = {
   "globals": {
-    "companyName": "Shaleni Henriquez",
-    "mainCTAButtonText": "Book A Discovery Call",
-    "mainCTAButtonURL": "#contact",
-    "primaryColor": "#e3c379",
-    "accentColor": "#d9c6a2",
     "agents": [
       {
         "name": "Shaleni Henriquez",
@@ -26,7 +15,13 @@ const config = {
           }
         ]
       }
-    ]
+    ],
+    "companyName": "Shaleni Henriquez",
+    "mainCTAButtonText": "Book A Discovery Call",
+    "mainCTAButtonURL": "https://tidycal.com/shaleni/30-minute-meeting",
+    "primaryColor": "#e3c379",
+    "accentColor": "#d9c6a2",
+    "facebookPixelId": ""
   },
   "header": {
     "tag": "CASE STUDY",
@@ -64,7 +59,8 @@ const config = {
         "Market conditions were shaky, and they were genuinely worried about whether their home would sell at all in the current climate",
         "Every day the home sat vacant was costing them money, creating mounting pressure to sell quickly without leaving money on the table",
         "The tenant move-out date had changed unexpectedly, throwing their original timeline into chaos and adding stress to an already anxious situation"
-      ]
+      ],
+      "listItems": []
     },
     {
       "type": "standard",
@@ -78,7 +74,8 @@ const config = {
       ],
       "testimonial": {
         "quote": "\"\"We recently had the pleasure of working with Shaleni for the sale of our home in Milton, and we could not be more impressed with the experience. From our initial consultation through to the final sale, she demonstrated exceptional professionalism, market expertise, and a genuine commitment to achieving the best outcome for us. In what has been a particularly challenging real estate market, Shaleni's guidance was invaluable. She carefully assessed current market conditions and worked closely with us to set a competitive and strategic listing price. Her keen eye for detail and advice on staging helped present our home at its absolute best, attracting strong interest right from the start. Thanks to her thoughtful planning and execution, we successfully sold our home within just one week—and at a price we hadn't imagined possible. We are truly grateful for her dedication, transparency, and expert knowledge throughout the process. If you're looking for a reliable, honest, and highly capable realtor—whether buying or selling—we wholeheartedly recommend Shaleni. She's one of the best in the business.\" — Selvan\"<br><span>— Satisfied Client</span>"
-      }
+      },
+      "listItems": []
     },
     {
       "type": "standard",
@@ -88,7 +85,8 @@ const config = {
       ],
       "image": {
         "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1768230528853-6-web-or-mls-DSC08702.jpg"
-      }
+      },
+      "listItems": []
     },
     {
       "type": "standard",
@@ -101,7 +99,8 @@ const config = {
         "Negotiated optimal closing date and terms that worked perfectly with the sellers' timeline",
         "Eliminated weeks of carrying costs, mortgage payments, utilities, and the stress of maintaining a vacant property",
         "Sold 86% faster than the market average, proving that strategic preparation beats hope-and-pray pricing every single time"
-      ]
+      ],
+      "listItems": []
     },
     {
       "type": "standard",
@@ -110,7 +109,8 @@ const config = {
         "<strong>Presentation beats price cuts every time:</strong> In today's market, a worn-looking home won't sell faster just because you drop the price—but a magazine-ready transformation can generate multiple offers in days",
         "<strong>Strategic planning eliminates panic:</strong> Having a detailed roadmap months in advance meant zero wasted time once the property was vacant, turning what could have been weeks of costly delays into a 2-week sprint to market",
         "<strong>The cheapest agent can cost you the most:</strong> Selvan knew agents who would charge less, but he understood that expertise, coordination, and results matter more than saving on commission when tens of thousands of dollars are on the line"
-      ]
+      ],
+      "listItems": []
     },
     {
       "type": "ctaBanner",
@@ -122,24 +122,24 @@ const config = {
     }
   ],
   "footer": {
+    "privacyPolicy": {
+      "text": "Privacy Policy",
+      "href": "https://soldbyshaleni.com/site/privacy-terms"
+    },
     "logo": {
       "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1762795425395-shaleni headshot.png"
+    },
+    "secondaryLogo": {
+      "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/branding/logos/1761593023693-ShaleniHenriquezPartner_HORIZONTAL_Green.png"
     },
     "brokerageLabel": "Brokerage:",
     "brokerageName": "Real Broker Ontario Ltd Brokerage",
     "brokerageAddress": "70 Jutland",
-    "secondaryLogo": {
-      "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/branding/logos/1761593023693-ShaleniHenriquezPartner_HORIZONTAL_Green.png"
-    },
-    "disclaimerText": "All testimonials on this page are from real clients. Their experiences do not guarantee similar results.<br>Individual results may vary based on location, market conditions, motivation, as well as other unforeseen factors. Your results may vary.",
-    "privacyPolicy": {
-      "text": "Privacy Policy",
-      "href": "https://soldbyshaleni.com/site/privacy-terms"
-    }
-  }
+    "disclaimerText": "All testimonials on this page are from real clients. Their experiences do not guarantee similar results.<br>Individual results may vary based on location, market conditions, motivation, as well as other unforeseen factors. Your results may vary."
+  },
+  "githubRepo": "https://github.com/arslvn93/Case-Study-809"
 };
 
-// Export for Node.js environment (if applicable) or set for browser
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = config;
 } else if (typeof window !== 'undefined') {
